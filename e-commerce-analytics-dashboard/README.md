@@ -72,6 +72,7 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 ## Data Source
 
 - Kaggle: [Global E-Commerce Sales & Customer Data (CSV)](https://www.kaggle.com/datasets/muhammadaammartufail/global-e-commerce-sales-and-customer-data)
+- The dataset used in this project can be found in the `/data` folder of this repository
 
 ---
 
