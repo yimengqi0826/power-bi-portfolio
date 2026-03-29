@@ -9,7 +9,7 @@
 ![02-dashboard-campaign-strategy](images/02-dashboard-campaign-strategy.png)
 
 ### 03-dashboard-performance-and-market-insights
-![03-dashboard-performance-and-market-insights](03-dashboard-performance-and-market-insights.png)
+![03-dashboard-performance-and-market-insights](images/03-dashboard-performance-and-market-insights.png)
 
 ---
 
