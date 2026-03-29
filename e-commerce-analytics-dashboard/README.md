@@ -2,7 +2,17 @@
 
 ## Dashboard Preview
 
-![Dashboard Overview](images/dashboard_preview.png)
+### Sales Overview
+![01-dashboard-sales-overview](images/01-dashboard-sales-overview.png)
+
+### Product & Pricing
+![02-dashboard-product-and-pricing](images/02-dashboard-product-and-pricing.png)
+
+### Customer & Region
+![03-dashboard-customer-and-region](images/03-dashboard-customer-and-region.png)
+
+### Operations & Profitability
+![04-dashboard-operations-and-profitability](images/04-dashboard-operations-and-profitability.png)
 
 ---
 
