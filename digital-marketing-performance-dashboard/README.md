@@ -2,7 +2,9 @@
 
 ## Dashboard Preview
 
-![dashboard 1-executive-overview]([images/dashboard_preview.png](https://github.com/yimengqi0826/power-bi-portfolio/blob/main/digital-marketing-performance-dashboard/dashboard%201-executive-overview.png))
+![dashboard 1-executive-overview](images/dashboard 1-executive-overview.png)
+![dashboard 2-campaign-strategy](images/dashboard 2-campaign-strategy.png)
+![dashboard 3-performance-and-market-insights](images/dashboard 3-performance-and-market-insights.png)
 
 ---
 
