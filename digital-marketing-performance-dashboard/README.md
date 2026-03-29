@@ -46,10 +46,9 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 ## Dashboard Structure
 
-- **Sales & Marketing Overview**  
-- **Campaign Performance**  
-- **Platform & Region Analysis**  
-- **Operational Insights**
+- **Executive Overview**  
+- **Campaign Strategy**  
+- **Performance & Market Insights**  
 
 ---
 
