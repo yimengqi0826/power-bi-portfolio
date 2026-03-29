@@ -99,5 +99,6 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 
 ## Contact
 
-GitHub: [YourGitHubProfile](https://github.com/YourGitHubProfile)  
+GitHub: [GitHubProfile](https://github.com/yimengqi0826)
+Email: yimengqi99@gmail.com
 
