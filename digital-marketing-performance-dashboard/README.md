@@ -74,6 +74,7 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 ## Data Source
 
 - Kaggle: [Global Ads Performance (Google, Meta, TikTok) CSV)](https://www.kaggle.com/datasets/nudratabbas/global-ads-performance-google-meta-tiktok)
+- The dataset used in this project can be found in the `/data` folder of this repository.
 
 ---
 
