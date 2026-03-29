@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![dashboard 1-executive-overview](images/dashboard 1-executive-overview.png)
+![01-dashboard-executive-overview](images/01-dashboard-executive-overview.png)
 ![dashboard 2-campaign-strategy](images/dashboard 2-campaign-strategy.png)
 ![dashboard 3-performance-and-market-insights](images/dashboard 3-performance-and-market-insights.png)
 
