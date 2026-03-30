@@ -63,7 +63,7 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 - Page slicers for dynamic filtering  
 - KPI cards for key metrics  
-- Field Parameters for **dynamic switching between metrics and dimensions** (hidden in report view)  
+- Field Parameters for dynamic switching between metrics and dimensions (hidden in report view)  
 - Dynamic scatter chart with quadrant analysis to evaluate and compare campaigns by plotting two key performance metrics at the same time
 - Funnel visualizations for conversion analysis  
 - Heatmap visualizations that use color intensity to emphasize performance patterns and support quick interpretation of business metrics
