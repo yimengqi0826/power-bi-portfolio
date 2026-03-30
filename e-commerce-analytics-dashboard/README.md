@@ -74,7 +74,7 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 - KPI cards for key metrics  
 - Dynamic scatter chart with quadrant analysis to evaluate and compare campaigns by plotting two key performance metrics at the same time  
 - Heatmap visualizations that use color intensity to emphasize performance patterns and support quick interpretation of business metrics  
-- Decomposition Tree to analyze **Total Profit drivers across multiple dimensions**  
+- Decomposition Tree to analyze Total Profit drivers across multiple dimensions  
 - Drill-down matrix (Country → Industry → Campaign Type) for hierarchical KPI analysis
 
 ---
