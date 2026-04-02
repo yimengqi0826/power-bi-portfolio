@@ -80,12 +80,12 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 ## Data Preparation
 
-- Created three fact tables from raw data: **Ad Performance, Conversions, Revenue**  
+- Created a single fact table **Ad Performance** from raw data, consolidating all key performance metrics including impressions, clicks, ad spend, conversions and revenue.
 - Removed redundant CTR, CPC, CPA, and ROAS columns from the fact table to streamline the model, then calculated these metrics dynamically using DAX measures in Power BI
 - Created dimension tables for **Campaign Type, Platform, Country, Industry, and Date**  
-- Added surrogate keys and mapped them to fact tables  
-- Star schema with multiple fact tables sharing common dimensions  
-- All KPI measures stored in **Calculations folder** within Fact_Ad_Performance
+- Added surrogate keys and mapped them to the fact table  
+- Star schema with a single fact table connected to multiple shared dimension tables
+- All KPI measures stored in the**Calculations folder** within Fact_Ad_Performance
 
 ---
 
