@@ -85,7 +85,7 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 - Created dimension tables for **Campaign Type, Platform, Country, Industry, and Date**  
 - Added surrogate keys and mapped them to the fact table  
 - Star schema with a single fact table connected to multiple shared dimension tables
-- All KPI measures stored in the**Calculations folder** within Fact_Ad_Performance
+- All KPI measures stored in the **Calculations folder** within Fact_Ad_Performance
 
 ---
 
