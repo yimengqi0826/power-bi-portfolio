@@ -1,4 +1,4 @@
-# Digital Marketing Performance Dashboard | Power BI Portfolio Project
+# Digital Marketing Analytics Project | SQL + Power BI Portfolio (End-to-End)
 
 ## Dashboard Preview
 
@@ -23,13 +23,57 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 ---
 
-## Key Skills Demonstrated
+## Dashboard Structure
 
-- Data Transformation and Cleaning (Power Query)  
-- Data Modeling (Star Schema with multiple fact tables)  
-- DAX Measure Development  
-- Interactive Dashboard Design  
-- Business Insight Generation
+- **Executive Overview**  
+- **Campaign Strategy**  
+- **Performance & Market Insights**  
+
+---
+
+## End-to-End Workflow & Key Skills
+
+### Workflow
+Raw Data (CSV)  
+→ Power Query (Data Cleaning & Transformation)  
+→ SQL (Analytical Queries)  
+→ Power BI (Modeling & Visualization)  
+→ Business Insights
+
+### Key Skills
+- SQL (aggregation, joins, window functions)
+- Power Query (data cleaning and transformation)
+- Data Modeling (star schema)
+- DAX (KPI and metrics calculation)
+- Dashboard Design & Business Analysis
+
+---
+
+## Data Processing & SQL Analysis
+
+Before building the Power BI dashboard, SQL was used to structure and analyze the raw dataset.
+
+### Key analysis includes:
+- Data cleaning and staging (stg_ads view)
+- KPI calculations (CTR, CPC, CPA, ROAS)
+- Platform, campaign, country, and industry analysis
+- Time trend analysis (monthly performance)
+- Advanced analytics (Pareto, YoY growth, funnel analysis)
+
+📁 All SQL scripts used in this project are available in the `/sql` directory for full reference.
+
+---
+
+## Data Preparation
+
+- Data cleaning and transformation were primarily performed using Power Query
+- SQL was used to support analytical queries
+- Created a single fact table **Ad Performance** from raw data, consolidating all key performance metrics including impressions, clicks, ad spend, conversions and revenue.
+- Removed redundant CTR, CPC, CPA, and ROAS columns from the fact table to streamline the model, then calculated these metrics dynamically using DAX measures in Power BI
+- Created dimension tables for **Campaign Type, Platform, Country, Industry, and Date**  
+- Added surrogate keys and mapped them to the fact table  
+- Star schema with a single fact table connected to multiple shared dimension tables
+- All KPI measures stored in the **Calculations folder** within Fact_Ad_Performance
 
 ---
 
@@ -51,14 +95,6 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 ---
 
-## Dashboard Structure
-
-- **Executive Overview**  
-- **Campaign Strategy**  
-- **Performance & Market Insights**  
-
----
-
 ## Features / Highlights
 
 - Page slicers for dynamic filtering  
@@ -75,17 +111,6 @@ Analysis dimensions include **Date, Platform, Campaign Type, Country, and Indust
 
 - Kaggle: [Global Ads Performance (Google, Meta, TikTok) CSV)](https://www.kaggle.com/datasets/nudratabbas/global-ads-performance-google-meta-tiktok)
 - The dataset used in this project can be found in the `/data` folder of this repository.
-
----
-
-## Data Preparation
-
-- Created a single fact table **Ad Performance** from raw data, consolidating all key performance metrics including impressions, clicks, ad spend, conversions and revenue.
-- Removed redundant CTR, CPC, CPA, and ROAS columns from the fact table to streamline the model, then calculated these metrics dynamically using DAX measures in Power BI
-- Created dimension tables for **Campaign Type, Platform, Country, Industry, and Date**  
-- Added surrogate keys and mapped them to the fact table  
-- Star schema with a single fact table connected to multiple shared dimension tables
-- All KPI measures stored in the **Calculations folder** within Fact_Ad_Performance
 
 ---
 
