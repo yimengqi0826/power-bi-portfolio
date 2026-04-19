@@ -1,5 +1,4 @@
--- 09_pareto_analysis.sql
--- Pareto analysis: identify top revenue-driving segments (80/20 rule)
+-- Pareto analysis: identify top revenue-driving campaign types (80/20 rule)
 
 WITH campaign_performance AS (
     SELECT 
@@ -15,10 +14,13 @@ ranked_campaigns AS (
         total_revenue,
 
         -- Rank campaigns by revenue
-        ROW_NUMBER() OVER (ORDER BY total_revenue DESC) AS rank,
+        RANK() OVER (ORDER BY total_revenue DESC) AS revenue_rank,
 
-        -- Cumulative revenue
-        SUM(total_revenue) OVER (ORDER BY total_revenue DESC) AS cumulative_revenue,
+        -- Cumulative revenue (explicit window frame for clarity)
+        SUM(total_revenue) OVER (
+            ORDER BY total_revenue DESC
+            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+        ) AS cumulative_revenue,
 
         -- Total revenue (for percentage calculation)
         SUM(total_revenue) OVER () AS total_revenue_all
@@ -29,10 +31,17 @@ ranked_campaigns AS (
 SELECT 
     campaign_type,
     total_revenue,
-    rank,
+    revenue_rank,
 
-    -- Cumulative contribution
-    cumulative_revenue / total_revenue_all AS cumulative_share
+    -- Cumulative contribution (share)
+    cumulative_revenue * 1.0 / NULLIF(total_revenue_all, 0) AS cumulative_share,
+
+    -- Pareto classification (80/20 rule)
+    CASE 
+        WHEN cumulative_revenue * 1.0 / NULLIF(total_revenue_all, 0) <= 0.8 
+        THEN 'Top 80%'
+        ELSE 'Long Tail'
+    END AS pareto_group
 
 FROM ranked_campaigns
-ORDER BY total_revenue DESC;
+ORDER BY total_revenue DESC; 
