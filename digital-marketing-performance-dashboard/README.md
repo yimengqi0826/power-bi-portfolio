@@ -58,7 +58,7 @@ Before building the Power BI dashboard, SQL was used to structure and analyze th
 - KPI calculations (CTR, CPC, CPA, ROAS)
 - Platform, campaign, country, and industry analysis
 - Time trend analysis (monthly performance)
-- Advanced analytics (Pareto, YoY growth, funnel analysis)
+- Advanced analytics (Pareto, funnel analysis)
 
 📁 All SQL scripts used in this project are available in the `/sql` directory for full reference.
 
