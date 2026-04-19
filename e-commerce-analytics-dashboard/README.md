@@ -1,4 +1,4 @@
-# E-Commerce Analytics Dashboard | Power BI Portfolio Project
+# E-Commerce Analytics Project | SQL + Power BI Portfolio (End-to-End)
 
 ## Dashboard Preview
 
@@ -26,13 +26,63 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 
 ---
 
-## Key Skills Demonstrated
+## Dashboard Structure
 
-- Data Transformation and Cleaning (Power Query)  
-- Data Modeling (Star Schema)  
-- DAX Measure Development  
-- Interactive Dashboard Design  
-- Business Insight Generation
+- **Sales Overview**  
+- **Product & Pricing**  
+- **Customer & Region**  
+- **Operations & Profitability**
+
+---
+
+## End-to-End Workflow & Key Skills
+
+Raw Data (CSV)  
+→ Power Query (Data Cleaning & Transformation)  
+→ SQL (Analytical Queries)  
+→ Power BI (Modeling & Visualization)  
+→ Business Insights
+
+**Key Skills:**
+- SQL (aggregation, joins, window functions)
+- Power Query (data cleaning and transformation)
+- Data Modeling (star schema)
+- DAX (KPI and metrics calculation)
+- Dashboard Design & Business Analysis
+
+
+---
+## Data Processing & SQL Analysis
+
+Before building the Power BI dashboard, SQL was used to structure and analyze the raw dataset.
+
+### SQL Workflow
+- Created a staging layer to clean and standardize raw data
+- Built analytical tables for sales, product, customer, and regional performance
+- Applied window functions for YoY growth and Pareto analysis
+
+### Key SQL Analyses
+- KPI aggregation (sales, profit, orders)
+- Time-series trend analysis (monthly & yearly)
+- Customer segmentation analysis
+- Product and regional performance analysis
+- Advanced analytics (Pareto, ranking, YoY growth)
+
+📁 All SQL scripts used in this project are available in the `/sql` directory for full reference.
+
+---
+
+## Data Preparation
+
+- Data cleaning and transformation were primarily performed using Power Query
+- SQL was used to support analytical queries
+- Classified discounts into **No/Low/Medium/High Discount** categories.  
+- Created dimension tables for **Product, Customer, Payment Method, Discount Level**.  
+- Removed duplicate records, added surrogate keys (Index Columns) and merged them into the fact table.  
+- Created **Dim_Date** table using DAX.  
+- Applied **currency formatting (USD)** for sales-related metrics.  
+- Star schema data model: Fact_Sales linked to five dimension tables (one-to-many relationships).  
+- Created DAX measures for all KPIs, stored in a **Calculations folder** within Fact_Sales.
 
 ---
 
@@ -59,15 +109,6 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 
 ---
 
-## Dashboard Structure
-
-- **Sales Overview**  
-- **Product & Pricing**  
-- **Customer & Region**  
-- **Operations & Profitability**
-
----
-
 ## Features / Highlights
 
 - Page slicers for dynamic filtering  
@@ -86,17 +127,6 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 
 ---
 
-## Data Preparation
-
-- Classified discounts into **No/Low/Medium/High Discount** categories.  
-- Created dimension tables for **Product, Customer, Payment Method, Discount Level**.  
-- Removed duplicate records, added surrogate keys (Index Columns) and merged them into the fact table.  
-- Created **Dim_Date** table using DAX.  
-- Applied **currency formatting (USD)** for sales-related metrics.  
-- Star schema data model: Fact_Sales linked to five dimension tables (one-to-many relationships).  
-- Created DAX measures for all KPIs, stored in a **Calculations folder** within Fact_Sales.
-
----
 
 ## Tech Stack
 
