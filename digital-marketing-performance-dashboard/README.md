@@ -53,7 +53,7 @@ Raw Data (CSV)
 
 Before building the Power BI dashboard, SQL was used to structure and analyze the raw dataset.
 
-### Key analysis includes:
+### Key SQL Analyses
 - Data cleaning and staging (stg_ads view)
 - KPI calculations (CTR, CPC, CPA, ROAS)
 - Platform, campaign, country, and industry analysis
