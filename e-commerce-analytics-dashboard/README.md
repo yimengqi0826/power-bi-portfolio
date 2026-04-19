@@ -37,13 +37,14 @@ Analysis dimensions include **Date, Product, Customer Segment, Discount Level, a
 
 ## End-to-End Workflow & Key Skills
 
+### Workflow
 Raw Data (CSV)  
 → Power Query (Data Cleaning & Transformation)  
 → SQL (Analytical Queries)  
 → Power BI (Modeling & Visualization)  
 → Business Insights
 
-**Key Skills:**
+### Key Skills
 - SQL (aggregation, joins, window functions)
 - Power Query (data cleaning and transformation)
 - Data Modeling (star schema)
