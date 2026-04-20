@@ -5,10 +5,10 @@ FROM (
     SELECT 
         order_year,
         Product_Name,
-        SUM(Total_Sales) AS total_sales
+        SUM(Total_Sales) AS total_sales,
         -- Total sales per product per year
 
-        , RANK() OVER (
+        RANK() OVER (
             PARTITION BY order_year 
             ORDER BY SUM(Total_Sales) DESC
         ) AS product_rank
