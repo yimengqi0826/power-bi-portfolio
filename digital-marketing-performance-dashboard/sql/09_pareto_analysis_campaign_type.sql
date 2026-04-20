@@ -13,17 +13,17 @@ ranked_campaigns AS (
         campaign_type,
         total_revenue,
 
-        -- Rank campaigns by revenue
         RANK() OVER (ORDER BY total_revenue DESC) AS revenue_rank,
+        -- Rank campaigns by revenue
 
-        -- Cumulative revenue (explicit window frame for clarity)
         SUM(total_revenue) OVER (
             ORDER BY total_revenue DESC
             ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
         ) AS cumulative_revenue,
+        -- Cumulative revenue (explicit window frame for clarity)
 
-        -- Total revenue (for percentage calculation)
         SUM(total_revenue) OVER () AS total_revenue_all
+        -- Total revenue (for percentage calculation)
 
     FROM campaign_performance
 )
