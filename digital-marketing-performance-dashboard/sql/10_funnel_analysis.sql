@@ -8,12 +8,12 @@ SELECT
     SUM(clicks) AS clicks,
     SUM(conversions) AS conversions,
 
-    -- Funnel conversion rates
     SUM(clicks) / NULLIF(SUM(impressions), 0) AS click_through_rate,
     SUM(conversions) / NULLIF(SUM(clicks), 0) AS conversion_rate,
+    -- Funnel conversion rates
 
-    -- End-to-end conversion
     SUM(conversions) / NULLIF(SUM(impressions), 0) AS overall_conversion_rate
+    -- End-to-end conversion
 
 FROM stg_ads
 GROUP BY platform
