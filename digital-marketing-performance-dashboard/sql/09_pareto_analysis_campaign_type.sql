@@ -33,15 +33,15 @@ SELECT
     total_revenue,
     revenue_rank,
 
-    -- Cumulative contribution (share)
     cumulative_revenue * 1.0 / NULLIF(total_revenue_all, 0) AS cumulative_share,
+    -- Cumulative contribution (share)
 
-    -- Pareto classification (80/20 rule)
     CASE 
         WHEN cumulative_revenue * 1.0 / NULLIF(total_revenue_all, 0) <= 0.8 
         THEN 'Top 80%'
         ELSE 'Long Tail'
     END AS pareto_group
+    -- Pareto classification (80/20 rule)
 
 FROM ranked_campaigns
 ORDER BY total_revenue DESC; 
