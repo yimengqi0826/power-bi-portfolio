@@ -1,21 +1,5 @@
 # E-Commerce Analytics Project | SQL + Power BI Portfolio (End-to-End)
 
-## Dashboard Preview
-
-### Sales Overview
-![01-dashboard-sales-overview](images/01-dashboard-sales-overview.png)
-
-### Product & Pricing
-![02-dashboard-product-and-pricing](images/02-dashboard-product-and-pricing.png)
-
-### Customer & Region
-![03-dashboard-customer-and-region](images/03-dashboard-customer-and-region.png)
-
-### Operations & Profitability
-![04-dashboard-operations-and-profitability](images/04-dashboard-operations-and-profitability.png)
-
----
-
 ## Project Description
 
 This dashboard analyzes global e-commerce sales performance from **2023 to 2025**.  
@@ -143,4 +127,20 @@ Before building the Power BI dashboard, SQL was used to structure and analyze th
 
 GitHub: [GitHubProfile](https://github.com/yimengqi0826)
 Email: yimengqi99@gmail.com
+
+---
+
+## Dashboard Preview
+
+### Sales Overview
+![01-dashboard-sales-overview](images/01-dashboard-sales-overview.png)
+
+### Product & Pricing
+![02-dashboard-product-and-pricing](images/02-dashboard-product-and-pricing.png)
+
+### Customer & Region
+![03-dashboard-customer-and-region](images/03-dashboard-customer-and-region.png)
+
+### Operations & Profitability
+![04-dashboard-operations-and-profitability](images/04-dashboard-operations-and-profitability.png)
 
