@@ -117,6 +117,8 @@ Before building the Power BI dashboard, SQL was used to structure and analyze th
 GitHub: [GitHubProfile](https://github.com/yimengqi0826)  
 Email: yimengqi99@gmail.com
 
+---
+
 ## Dashboard Preview
 
 ### 01-dashboard-executive-overview
@@ -128,4 +130,3 @@ Email: yimengqi99@gmail.com
 ### 03-dashboard-performance-and-market-insights
 ![03-dashboard-performance-and-market-insights](images/03-dashboard-performance-and-market-insights.png)
 
----
