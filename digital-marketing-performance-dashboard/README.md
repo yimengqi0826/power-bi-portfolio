@@ -1,17 +1,5 @@
 # Digital Marketing Analytics Project | SQL + Power BI Portfolio (End-to-End)
 
-## Dashboard Preview
-
-### 01-dashboard-executive-overview
-![01-dashboard-executive-overview](images/01-dashboard-executive-overview.png)
-
-### 02-dashboard-campaign-strategy
-![02-dashboard-campaign-strategy](images/02-dashboard-campaign-strategy.png)
-
-### 03-dashboard-performance-and-market-insights
-![03-dashboard-performance-and-market-insights](images/03-dashboard-performance-and-market-insights.png)
-
----
 
 ## Project Description
 
@@ -129,3 +117,15 @@ Before building the Power BI dashboard, SQL was used to structure and analyze th
 GitHub: [GitHubProfile](https://github.com/yimengqi0826)  
 Email: yimengqi99@gmail.com
 
+## Dashboard Preview
+
+### 01-dashboard-executive-overview
+![01-dashboard-executive-overview](images/01-dashboard-executive-overview.png)
+
+### 02-dashboard-campaign-strategy
+![02-dashboard-campaign-strategy](images/02-dashboard-campaign-strategy.png)
+
+### 03-dashboard-performance-and-market-insights
+![03-dashboard-performance-and-market-insights](images/03-dashboard-performance-and-market-insights.png)
+
+---
